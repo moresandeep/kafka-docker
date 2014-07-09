@@ -18,5 +18,8 @@ Note: Do not use localhost or 127.0.0.1 as the host ip if you want to run multip
 
 [http://wurstmeister.github.io/kafka-docker/](http://wurstmeister.github.io/kafka-docker/)
 
+## SRM
+Currently the zookeeper and kafka names are hardcoded which is kinda bad.
+
 
 
