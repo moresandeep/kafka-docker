@@ -3,8 +3,8 @@ FROM ubuntu
 MAINTAINER Wurstmeister
 
 #SRM: proxified
-ENV http_proxy http://example.proxy.com:123
-ENV https_proxy http://example.proxy.com:123
+#ENV http_proxy http://example.proxy.com:123
+#ENV https_proxy http://example.proxy.com:123
 
 RUN echo "deb http://archive.ubuntu.com/ubuntu precise universe" >> /etc/apt/sources.list; apt-get update; apt-get install -y unzip  openjdk-6-jdk wget git
 
