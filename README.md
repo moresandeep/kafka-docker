@@ -21,8 +21,8 @@ Note: Do not use localhost or 127.0.0.1 as the host ip if you want to run multip
 ## SRM
 * Currently the zookeeper and kafka names are hardcoded which is kinda bad.
 * If you are running behing the proxy, uncomment the following lines.
-** #ENV http_proxy http://example.proxy.com:123
-** #ENV https_proxy http://example.proxy.com:123
+	* `#ENV http_proxy http://example.proxy.com:123`
+	* `#ENV https_proxy http://example.proxy.com:123`
 
 
 
